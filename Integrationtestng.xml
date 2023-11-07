@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<groups>
+<run>
+<include name="IT">
+</include>
+</run>
+</groups>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="addToCart.DWS_AddToCart_LapTop_04_Test"/>
+      <class name="addToCart.DWS_AddToCartBook_03_Test"/>
+      <class name="addToCart.DWS_jewellary_06_Test"/>
+      <class name="addToCart.DWS_destop_05_Test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
